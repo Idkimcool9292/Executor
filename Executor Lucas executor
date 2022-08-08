@@ -1,0 +1,52 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(20, 255, 248)
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.Position = UDim2.new(0.140371233, 0, -0.0178217888, 0)
+Frame.Size = UDim2.new(0, 627, 0, 268)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+TextButton.Position = UDim2.new(0.200305611, 0, 0.0291044321, 0)
+TextButton.Size = UDim2.new(0, 383, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Made my Luca."
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 20.000
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_2.Position = UDim2.new(0.140371174, 0, 0.413861364, 0)
+TextButton_2.Size = UDim2.new(0, 217, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Execute"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 20.000
+
+TextButton_3.Parent = ScreenGui
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 217, 0)
+TextButton_3.Position = UDim2.new(0.616009235, 0, 0.413861334, 0)
+TextButton_3.Size = UDim2.new(0, 217, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Attach"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 20.000
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.30626449, 0, 0.144554466, 0)
+TextLabel.Size = UDim2.new(0, 302, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "require scripts get accepted"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
